@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\assetshome\css\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\fonts\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\img\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\img\banner\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\img\courses\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\img\event\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\img\features\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\img\testimonials\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\img\trainer\.DS_Store" />
+    <None Include="wwwroot\assets\assetshome\vendors\.DS_Store" />
+  </ItemGroup>
+
+</Project>
